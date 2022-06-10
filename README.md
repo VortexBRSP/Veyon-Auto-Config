@@ -8,7 +8,7 @@ Programa criado para escanear computadores e adicionar ao Veyon automaticamente.
 - Clique em ok e salve tudo.
 
 ### Instruções de uso do scanner
-- Execute o  __"scanner.exe"__ como adminstrador.
+- Execute o  __"scanner.exe"__ encontrado na pasta __"dist__"como adminstrador.
 - Abra o cmd digite  __"ipconfig"__ sem as aspas.
 - Procure por endereço IPV4 como exemplo __"192.168.0.2"__
 - Volte para o scanner e digite as 3 primeiras partes do seu IP local como exemplo __"192.168.0"__ sem as aspas.
