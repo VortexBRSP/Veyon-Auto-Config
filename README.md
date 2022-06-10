@@ -7,7 +7,6 @@ Programa criado para escanear computadores e adicionar ao Veyon automaticamente.
 4- Pesquise pelo local de instalação do Veyon (onde fica o veyon-cli).
 5- Clique em ok e salve tudo.
 
-
 ### Instruções de uso do scanner
 - 2 Execute o  __"scanner.exe"__ como adminstrador.
 - 3 Abra o cmd digite  __"ipconfig"__ sem as aspas.
