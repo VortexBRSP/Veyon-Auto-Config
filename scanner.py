@@ -1,6 +1,7 @@
 import os
 import ctypes, sys
 
+
 def is_admin():
     try:
         return ctypes.windll.shell32.IsUserAnAdmin()
@@ -18,7 +19,14 @@ if is_admin():
             except:
                 print("[ERRO] IP INVÁLIDO ERRO AO ADICIONAR!")
 
-    print(".--.\n|__| .-------.\n|=.| |.-----.|\n|--| || VAS ||\n|  | |'-----'|\n|__|~')_____('\nVAS 2.0\nAuthor: @vortexbrsp")
+    print(".--.\n"
+          "|__| .-------.\n"
+          "|=.| |.-----.|\n"
+          "|--| || VAS ||\n"
+          "|  | |'-----'|\n"
+          "|__|~')_____('\n"
+          "VAS 2.0\n"
+          "Author: @vortexbrsp")
 
     while True:
         try:
