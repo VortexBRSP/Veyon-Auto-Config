@@ -1,4 +1,4 @@
-# VEYON AUTO-SCAN 2.0
+# VEYON AUTO-CONFIG 2.0
 Programa criado para escanear computadores e adicionar ao Veyon automaticamente.
 ### Configurando o PATH do Veyon
 - Pesquise por variaveis de ambiente na barra de pesquisa do Windows e abra.
