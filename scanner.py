@@ -9,10 +9,12 @@ def is_admin():
 
 if is_admin():
     def gerarIp(ipBase, qtdIps):
+        os.system('veyon-cli networkobjects clear')
+        os.system('veyon-cli networkobjects add location Lab')
         for i in range(0, qtdIps):
-            print("{}.{} Adicionando IP.".format(ipBase, i))
+            print("{}.{} Adicionando IPs.".format(ipBase, i))
             try:
-                os.system('veyon-cli networkobjects add location Lab {}.{} "" ""'.format(ipBase, i))
+                os.system('veyon-cli networkobjects add computer Aluno{} "{}.{}" "" "Lab"'.format(i, ipBase, i))
             except:
                 print("[ERRO] IP INVÁLIDO ERRO AO ADICIONAR!")
 
